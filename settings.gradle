@@ -1,0 +1,13 @@
+pluginManagement {
+  repositories {
+    maven { url="offline-repository" }
+    gradlePluginPortal()
+  }
+}
+rootProject.name = 'bluej-greenfoot'
+include(':anns-threadchecker')
+include(':boot')
+include(':bluej')
+include(':greenfoot')
+include(':lang-stride')
+include(':threadchecker')
